@@ -1,0 +1,33 @@
+
+
+
+
+
+body {
+
+    background: linear-gradient( to bottom right, #5F00DD, #2F0772);
+    height: 100vh;
+
+
+    .head {
+        position: relative;
+        top: 50%;
+        left: 10%;
+        font-size: 20px;
+        color: aliceblue;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+
+    p1 { 
+        font-size: 50px;
+    }
+
+
+    
+    
+
+
+   
+}
+
