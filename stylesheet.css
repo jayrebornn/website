@@ -1,0 +1,89 @@
+
+
+body {
+    background-image: url(website-background.avif);
+    background-size: cover;
+    height: 100vh;
+    position: center;
+    margin: 20%, 20%;
+}
+
+
+
+
+.navbar ul {
+    list-style: none;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+
+.navbar a {
+    color: rgb(7, 4, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: right;
+    
+}
+
+.navbar a:hover {
+    background-color: rgb(139, 142, 136);
+}
+
+.navbar li {
+    float: right;
+}
+
+.Container {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container {
+    flex: 1;
+    padding-right: 20px;
+    margin-left: 25px;
+}
+
+.image-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container-icons {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+
+
+
+
+}
+
+.ionicons {
+    justify-content: space-between;
+}

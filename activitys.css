@@ -1,0 +1,50 @@
+
+body {
+    background-image: url(website-background.avif);
+    background-size: cover;
+    height: 100vh;
+    position: center;
+    margin: 20%, 20%;
+}
+
+
+
+
+.navbar ul {
+    list-style: none;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+
+.navbar a {
+    color: rgb(7, 4, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: right;
+    
+}
+
+.navbar a:hover {
+    background-color: rgb(139, 142, 136);
+}
+
+.navbar li {
+    float: right;
+}
+
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center ;
+    font-weight: 400;
+    font-size: 18px;
+    flex-wrap: wrap;
+
+}
+
